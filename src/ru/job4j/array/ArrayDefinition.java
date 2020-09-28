@@ -9,5 +9,18 @@ public class ArrayDefinition {
         System.out.println(ages.length);
         System.out.println(surnames.length);
         System.out.println(prices.length);
+
+        String[] names = new String[4];
+
+        names[0] = "Ivan Ivanov";
+        names[1] = "Sergey Sergeev";
+        names[2] = "Petr Petrov";
+        names[3] = "Denis Denisov";
+
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
+
     }
 }
