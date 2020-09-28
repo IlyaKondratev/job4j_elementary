@@ -17,10 +17,9 @@ public class ArrayDefinition {
         names[2] = "Petr Petrov";
         names[3] = "Denis Denisov";
 
-        System.out.println(names[0]);
-        System.out.println(names[1]);
-        System.out.println(names[2]);
-        System.out.println(names[3]);
+        for (int index = 0; index < names.length; index++) {
+            System.out.println(names[index]);
+        }
 
     }
 }
