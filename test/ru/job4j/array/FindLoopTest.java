@@ -32,4 +32,13 @@ public class FindLoopTest {
         int expected = 1;
         assertThat(result, is(expected));
     }
+
+    @Test
+    public void whenArrayHasNot1854ThenMinus1() {
+        int[] input = {7, 1, -2, 1, 1};
+        int value = 1854;
+        int result = FindLoop.indexOf(input, value);
+        int expected = -1;
+        assertThat(result, is(expected));
+    }
 }
