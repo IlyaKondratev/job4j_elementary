@@ -1,6 +1,7 @@
 package ru.job4j.loop;
 
 public class Slash {
+
     public static void draw(int size) {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
@@ -25,4 +26,5 @@ public class Slash {
         System.out.println("Draw by 5");
         draw(5);
     }
+
 }

@@ -10,7 +10,5 @@ public class ThreeMax {
             result = second;
         }
         return result;
-//        int result = first > second ? (first > third ? first : third) : (second > third ? second : third);
-//        return result;
     }
 }
