@@ -31,7 +31,6 @@ public class TasksClass {
             return s;
         } else {
             StringBuilder stringBuilder = new StringBuilder(s);
-            int length = s.length();
             for (int i = 0; i < s.length(); i++) {
                 if (s.length() - i > 4) {
                     stringBuilder.setCharAt(i, '#');
@@ -49,6 +48,7 @@ public class TasksClass {
         for (int j = 0; j < s.length() / 2; j++) {
             if (s.charAt(j) != s.charAt(s.length() - j - 1)) {
                 rsl = false;
+                break;
             }
         }
         return rsl;
