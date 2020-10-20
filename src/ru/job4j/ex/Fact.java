@@ -2,12 +2,12 @@ package ru.job4j.ex;
 
 public class Fact {
     public static void main(String[] args) {
-        System.out.println(new Fact().calc(-1));
+        System.out.println(Fact.calc(-1));
     }
 
-    public int calc(int n) {
+    public static int calc(int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("Factorial is calculated only for non-negative numbers.");
+            throw new IllegalArgumentException("Argument \"n\" must be a non-negative number.");
         } else {
             int rsl = 1;
             for (int index = 1; index <= n; index++) {
