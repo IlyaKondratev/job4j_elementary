@@ -18,7 +18,7 @@ public class FindEl {
 
     public static void main(String[] args) {
         String[] value = new String[]{"first", "second"};
-        String key = "third";
+        String key = "first";
         try {
             System.out.println(indexOf(value, key));
         } catch (ElementNotFoundException e) {
